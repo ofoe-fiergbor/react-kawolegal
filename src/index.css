@@ -70,9 +70,7 @@
   background-color: transparent;
 }
 
-.content-home{
 
-}
 
 .btn-home{
   margin-top:1.2rem;
@@ -90,8 +88,9 @@
 .footer-custom{
   background-color: rgb(51, 9, 5);
   color: rgb(245, 237, 237);
-  height:5rem;
+  height:7rem;
   margin-top: 2rem;
+  margin-bottom: 0px;
 }
 .footer-text{
   padding:5px;
@@ -180,4 +179,7 @@ span:hover{
 .fa-twitter {
   background: transparent;
   color: #55ACEE;
+}
+.position{
+  margin-top: 70px;
 }

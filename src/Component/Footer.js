@@ -9,10 +9,10 @@ const Footer = () => {
                         <p className="footer-text">© 2017 KawoLegal. All Rights Reserved</p>
                     </div>
                     <div className="col-md-6 media-icons">
-                        <i><a href="https://facebook.com" className="fa fa-facebook">#</a></i>
-                        <i><a href="https://twitter.com" className="fa fa-twitter">#</a></i>
-                        <i><a href="https://www.instagram.com" className="fa fa-instagram">#</a></i>
-                        <i><a href="https://linkedIn.com" className="fa fa-linkedin">#</a></i>
+                        <li className="fa fa-facebook" href="https://facebook.com"></li>
+                        <li href="https://twitter.com" className="fa fa-twitter"></li>
+                        <li href="https://www.instagram.com" className="fa fa-instagram"></li>
+                        <li href="https://linkedIn.com" className="fa fa-linkedin"></li>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@ import React from 'react'
 const SeachBar =()=>{
     return(
         <div>
-            <div className="container">
+            <div className="container position">
                 <div className="row">
                     <div className="col-md-1"></div>
                     <div className="col-md-10">

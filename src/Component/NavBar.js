@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import logo from "../images/kawo-legal-logo.png";
 
 const NavBar = () => {
@@ -28,18 +29,18 @@ const NavBar = () => {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right btns">
-              <li>
-                <a href="home.html">Home</a>
-              </li>
-              <li>
-                <a href="startups.html">Startups</a>
-              </li>
-              <li>
-                <a href="register.html">Register</a>
-              </li>
-              <li>
-                <a href="login.html">Login</a>
-              </li>
+              <Link to='/'>
+                <li>Home</li>
+              </Link>
+              <Link to='/startups'>
+                <li>Startups</li>
+              </Link>
+              <Link to='/register'>
+                <li>Register</li>
+              </Link>
+              <Link to='/login'>
+                <li>Login</li>
+              </Link>
             </ul>
           </div>
         </div>
