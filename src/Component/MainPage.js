@@ -8,22 +8,20 @@ import HomePage from "./HomePage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const MainPage = () => {
-  return (
-    <Router>
-      <div>
-      <NavBar />
-      <Switch>
-          <Route path = '/' exact component={HomePage}/>
-          <Route path ='/startups' component ={StartUps}/>
-          <Route path ='/register' component={Register}/>
-          <Route path= '/login' component={LogIn}/>   
-        </Switch> 
-        <footer>      
-            <Footer />
-        </footer>
-      </div>
-    </Router>
-  );
+    return (
+        <Router>
+            <div>
+                <NavBar />
+                <Switch>
+                    <Route path='/' exact component={HomePage} />
+                    <Route path='/startups' component={StartUps} />
+                    <Route path='/register' component={Register} />
+                    <Route path='/login' component={LogIn} />
+                </Switch>
+                <Footer />
+            </div>
+        </Router>
+    );
 };
 
 export default MainPage;

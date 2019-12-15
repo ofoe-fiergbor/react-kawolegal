@@ -3,12 +3,12 @@ import React from 'react'
 const Register = () => {
     return (
         <div className="container register">
-            <div className="row">
+            
                 <div className="col-md-2"></div>
-                <div className="col-md-8">
+                <div className="col-md-8 signup-form">
                     <h3>Join KawoLegal. Sign Up to get listed now!</h3>
                     <div>
-                        <form className="signup-form">
+                        <form >
                             <div className="form-group">
                                 <label for="exampleInputEmail1">Full Name</label>
                                 <input type="text" className="form-control" id="exampleInputEmail1" placeholder="Full Name" />
@@ -30,7 +30,7 @@ const Register = () => {
                     </div>
                 </div>
                 <div className="col-md-2"></div>
-            </div>
+            
         </div>
 
     )

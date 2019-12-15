@@ -24,7 +24,37 @@
 .logo{
   padding:5px;
 }
-.navbar-home .nav>li>a, .navbar-custom .nav>li>a{
+
+.nav-btns{
+  background-color: transparent;
+  margin:10px;
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  width: 8rem;
+  height: 4rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  font-size: 125%;
+  color: red;
+
+
+}
+.nav-btns:hover{
+  border:solid #D14233 2px;
+  color: #D14233;
+  text-decoration: none;
+}
+.nav-btns:focus{
+  border:solid #D14233 2px;
+  color: #D14233;
+  text-decoration: none;
+
+}
+.ul{
+  margin-right: 10rem;
+}
+/* .navbar-home .nav>li>a, .navbar-custom .nav>li>a{
   color: #D14233;
   font-family: Open Sans;
   font-size: 16px;
@@ -35,18 +65,23 @@
   margin-left: 5px;
   margin-top:3rem;
 
+} */
+.nav-li{
+  margin-top:5px;
+
 }
 
-.navbar-home .nav>li>a:hover, .navbar-custom .nav>li>a:hover {
+
+/* .navbar-home .nav>li>a:hover, .navbar-custom .nav>li>a:hover {
   border:solid #D14233 2px;
   color: #D14233;
 }
 .navbar-home .nav>li>a:focus, .navbar-custom .nav>li>a:focus{
   border:solid #D14233 2px;
   color: #D14233;
-}
+} */
 .bg-image{
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   margin-top: 0px;
 
@@ -62,12 +97,17 @@
   position: absolute;
   top:0px; } */
 
-.container-home .cover-home .content-home{
-  margin-top:14rem;
-  font-size: 200%;
+.content-home{
+  margin-top:2rem;
+  font-size: 100%;
   height: 300px;
+  position: absolute;
+  top:30%;
+  left: 35%;
+  z-index: 999;
   color: rgb(245, 237, 237);
   background-color: transparent;
+
 }
 
 
@@ -76,10 +116,11 @@
   margin-top:1.2rem;
   height: 4.9rem;
   width: 20rem;
-  font-size: 90%;
+  font-size: 150%;
+  font-weight: bolder;
   background-color: #5bc0de;
   border:none;
-  color:rgb(245, 237, 237);
+  color:rgb(22, 19, 19);
 }
 .btn-home:hover{
   background-color: #1198c2;
@@ -89,13 +130,13 @@
   background-color: rgb(51, 9, 5);
   color: rgb(245, 237, 237);
   height:7rem;
-  margin-top: 2rem;
+  margin-top: none;
   margin-bottom: 0px;
 }
 .footer-text{
   padding:5px;
   margin-left:10rem;
-  margin-top:8px;
+  margin-top:25px;
 }
 
 .btn-startups{
@@ -138,12 +179,18 @@ span:hover{
 }
 .signup-form{
   padding-bottom: 95px;
-  margin-bottom: 17px;
+  margin-bottom: 130px;
+  margin-top:65px
 
 }
 .login-form{
-  margin-top: 5rem;
-  margin-bottom:22rem;
+  margin-top: 3rem;
+
+}
+.login-form-a{
+  margin-top: 10rem;
+  margin-bottom:31.7rem;
+
 }
 /* Style all font awesome icons */
 .media-icons{
@@ -157,6 +204,8 @@ span:hover{
   text-align: right;
   text-decoration: none;
   margin-bottom:0px;
+  margin-top:15px;
+
 
 }
 
@@ -170,9 +219,7 @@ span:hover{
 /* Facebook */
 .fa-facebook {
   background: transparent;
-  color: #55ACEE;
-
-  
+  color: #55ACEE; 
 }
 
 /* Twitter */
@@ -180,6 +227,17 @@ span:hover{
   background: transparent;
   color: #55ACEE;
 }
+
+.fa-instagram {
+  background: transparent;
+  color: #55ACEE;
+}
+.fa-linkedin {
+  background: transparent;
+  color: #55ACEE;
+}
+
+
 .position{
   margin-top: 70px;
 }

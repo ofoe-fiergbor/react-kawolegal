@@ -20,26 +20,26 @@ const NavBar = () => {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
+            <Link to='/'>
             <a className="navbar-brand logo" href="home.html">
               <img src={logo} alt="kawo_legal_logo" />
             </a>
+            </Link>
           </div>
           <div
-            className="collapse navbar-collapse"
-            id="bs-example-navbar-collapse-1"
-          >
-            <ul className="nav navbar-nav navbar-right btns">
-              <Link to='/'>
-                <li>Home</li>
+            className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul className='ul'>
+              <Link to='/login' className="nav-btns">
+                <li className='nav-li'>Login</li>
               </Link>
-              <Link to='/startups'>
-                <li>Startups</li>
+              <Link to='/register' className="nav-btns">
+                <li className='nav-li'>Register</li>
               </Link>
-              <Link to='/register'>
-                <li>Register</li>
+              <Link to='/startups' className="nav-btns">
+                <li className='nav-li'>Startups</li>
               </Link>
-              <Link to='/login'>
-                <li>Login</li>
+              <Link to='/' className="nav-btns">
+                <li className='nav-li'>Home</li>
               </Link>
             </ul>
           </div>

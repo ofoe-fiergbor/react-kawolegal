@@ -6,7 +6,7 @@ const LogIn = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-2"></div>
-                <div className="col-md-8">
+                <div className="col-md-8 login-form-a">
                     <h3>Already a member? Login to add your Startup.</h3>
                     <div>
                         <form className="login-form">
