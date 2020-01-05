@@ -16,7 +16,7 @@ const StartUps =()=>{
             <StartUp 
                 StartUpImg ={image1} 
                 startUpName = 'Tutahub' 
-                detail='Providing solutions for the visually impaired, such as mind-controlled zooming, and<br>wearable controlled zooming.'/>
+                detail='Providing solutions for the visually impaired, such as mind-controlled zooming, and wearable controlled zooming.'/>
             <StartUp 
                 StartUpImg ={image2} 
                 startUpName = 'Auditer'
